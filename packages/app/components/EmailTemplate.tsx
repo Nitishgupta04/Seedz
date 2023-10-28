@@ -22,7 +22,7 @@ export const ProductCheckoutTemp: React.FC<
 > = ({ fullname, email, isBuyer, products, amount, type }) => (
   <div>
     <h1>Hi, {fullname}!</h1>
-    <p>{isBuyer ? null : `Order has been placed by ${email}`}</p>
+    <p>{isBuyer ? null : `Order has been placed by INR{email}`}</p>
     <p>
       {isBuyer
         ? `Thank you for your recent ${
