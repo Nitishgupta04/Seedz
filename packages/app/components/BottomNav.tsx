@@ -88,7 +88,7 @@ function BottomNavBtn({ active, name, title }: BtnProps) {
 
   return (
     <Link
-      href={`/${name}`}
+      href={`/₹{name}`}
       className={twMerge(
         "flex flex-col items-center justify-center px-4 py-3 rounded-[50%] transition-all hover:text-green-600",
         active === name ? "text-green-600" : "text-white-400 "
