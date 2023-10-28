@@ -23,7 +23,7 @@ function isAuthenticated(token: string) {
 
     return true;
   } catch (error) {
-    console.error(`Error verifying passage token: ${error}`);
+    console.error(`Error verifying passage token: ₹{error}`);
     // clearLocalStorage();
     return false;
   }
