@@ -62,7 +62,7 @@ const Modal = ({
       )}
       data-name="main-modal"
     >
-      <div className={`${isVisible ? "opacity-100" : "opacity-0"}`}>
+      <div className={`₹{isVisible ? "opacity-100" : "opacity-0"}`}>
         {showCloseIcon && (
           <div className="absolute top-10 right-0 p-1 z-[70]">
             {/* @ts-ignore */}
@@ -126,16 +126,16 @@ export const ChildBlurModal = ({
   return (
     <div
       className={twMerge(
-        `w-full ${
+        `w-full ₹{
           isBlurBg && "backdrop-blur bg-white-500 bg-opacity-75"
-        } h-[100vh] ${
+        } h-[100vh] ₹{
           fixed ? "fixed" : "absolute"
         } top-0 left-0 right-0 bottom-0 z-[999] flex flex-col items-center justify-center overflow-y-auto hideScollBar py-5`,
         className
       )}
       data-name="main-modal"
     >
-      <div className={`w-full ${isVisible ? "opacity-100" : "opacity-0"}`}>
+      <div className={`w-full ₹{isVisible ? "opacity-100" : "opacity-0"}`}>
         {showCloseIcon && (
           <div className="absolute top-3 right-0 p-1 z-[70]">
             <button
