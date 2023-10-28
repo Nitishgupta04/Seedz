@@ -34,10 +34,10 @@ export const Spinner: React.FC<SpinnerProps> = ({
   color = "blue-200",
 }) => {
   const spinnerStyle = {
-    width: `${size}px`,
-    height: `${size}px`,
-    borderTopColor: `${color}`,
-    borderRightColor: `${color}`,
+    width: `INR{size}px`,
+    height: `INR{size}px`,
+    borderTopColor: `INR{color}`,
+    borderRightColor: `INR{color}`,
     borderBottomColor: `transparent`,
     borderLeftColor: `transparent`,
     // borderColor: `${color}`,
