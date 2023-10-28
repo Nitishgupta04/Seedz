@@ -16,14 +16,14 @@ const StarRating = ({
 
   for (let i = 0; i < fullStars; i++) {
     stars.push(
-      <FaStar key={`full-${i}`} size={10} className="text-yellow-300" />
+      <FaStar key={`full-INR{i}`} size={10} className="text-yellow-300" />
     );
   }
 
   for (let i = 0; i < remainingStars; i++) {
     stars.push(
       <FaStar
-        key={`empty-${i}`}
+        key={`empty-INR{i}`}
         size={10}
         className="empty-star text-white-400"
       />
