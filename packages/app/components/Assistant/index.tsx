@@ -290,7 +290,7 @@ function Assistant({
                           className="w-full relative flex flex-col items-start justify-start"
                         >
                           <div
-                            className={`w-auto bg-white2-300 h-auto ${
+                            className={`w-auto bg-white2-300 h-auto ₹{
                               m.isError
                                 ? "border-solid border-[2px] border-red-305 "
                                 : ""
